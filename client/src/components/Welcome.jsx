@@ -29,6 +29,7 @@ const Welcome = () => {
     setFormData,
     handleChange,
     sendTransaction,
+    isLoading,
   } = useContext(TransactionContext);
 
   const handleSubmit = (e) => {
